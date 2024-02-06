@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    text-align: center;
+    margin: 10%;
+    box-sizing: border-box;
+}
+
+div {
+    border: 1px solid black;
+
+    /* 角丸 */
+    /* overflow: hidden;
+    border-radius: 40px; */
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+p {
+    margin: 0;
+    padding: 20px 0;
+    border-top: 1px solid black;
+}
