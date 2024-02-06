@@ -1,5 +1,14 @@
+* {
+    font-family: "Noto Sans JP", sans-serif;
+    color: black;
+}
 body {
     margin: 0;
+    background-color: rgba(255, 255, 255, 0.6);
+    background-image: url("../img/ice.jpg");
+    background-blend-mode: lighten;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 header {
@@ -22,7 +31,8 @@ header h2 {
 }
 
 main {
-    margin: calc(2rem + 60px) 30%;
+    margin: calc(2rem + 60px) 20%;
+    display: flex;
 }
 
 .text_box {
@@ -33,6 +43,9 @@ main {
 img {
     width: 180px;
     text-align: center;
+    border-radius: 50%;
+    mix-blend-mode: multiply;
+    box-shadow: 0 0 10px 5px rgba(255, 165, 0, 0.3);
 }
 
 p {
@@ -47,4 +60,26 @@ a {
     margin-bottom: auto;
     padding: 0 20px;
     border-bottom: 1px solid black;
+}
+
+.comment_box {
+    text-align: center;
+    writing-mode: vertical-rl;
+    margin: 0 auto;
+}
+
+.comment_box p {
+    font-family: "Noto Serif JP", serif;
+}
+
+footer {
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 50px;
+    background-color: black;
+}
+
+footer p {
+    margin: 0;
+    color: thistle;
 }

@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+}
+
+.row_box {
+    overflow-x: auto;
+    border: none;
+    margin: 10%;
+}
+
+.row {
+    display: flex;
+
+    gap: 30px;
+    text-align: center;
+    box-sizing: border-box;
+
+    border: none;
+    overflow: scroll;
+}
+
+.row p {
+    width: 300px;
+    padding: 10% 0;
+    border: none;
+}
+
+.column_flex {
+    display: flex;
+    justify-content: space-around;
+
+    gap: 30px;
+    text-align: center;
+    margin: 10%;
+    box-sizing: border-box;
+
+    border: none;
+}
+
+.column_flex p {
+    padding: 20px 40px;
+    border: none;
+}
+
+.column {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    gap: 30px;
+    text-align: center;
+    margin: 10%;
+    box-sizing: border-box;
+
+    border: none;
+}
+
+div {
+    border: 1px solid black;
+
+    /* 角丸 */
+    /* overflow: hidden;
+    border-radius: 40px; */
+}
+
+p {
+    margin: 0;
+    padding: 20px 0;
+    border: 1px solid black;
+}

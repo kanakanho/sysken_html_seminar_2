@@ -2,35 +2,49 @@ body {
     margin: 0;
 }
 
-main {
-    /* display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr; */
-
-    display: flex;
-
-    gap: 30px;
+header {
+    width: 100%;
     text-align: center;
-    margin: 10%;
-    box-sizing: border-box;
+    background-color: black;
+
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
 }
 
-div {
-    border: 1px solid black;
+header h2 {
+    color: white;
+    margin: 0;
+    padding: 20px 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
 
-    /* 角丸 */
-    /* overflow: hidden;
-    border-radius: 40px; */
+main {
+    margin: calc(2rem + 60px) 30%;
+}
+
+.text_box {
+    display: flex;
+    gap: 40px;
 }
 
 img {
-    object-fit: cover;
-    width: 100%;
-    height: auto;
+    width: 180px;
+    text-align: center;
 }
 
 p {
-    margin: 0;
-    padding: 20px 0;
-    border-top: 1px solid black;
+    font-size: 2rem;
 }
 
+a {
+    text-decoration: none;
+}
+
+.design {
+    margin-bottom: auto;
+    padding: 0 20px;
+    border-bottom: 1px solid black;
+}
